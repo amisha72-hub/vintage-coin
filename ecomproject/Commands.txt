@@ -1,0 +1,12 @@
+step-1 :-  pip install django 
+step-2 :-  python -m pip install --upgrade pip
+step-3 :-  django-admin --version
+step-4 :-  pip install django pillow
+step-5 :-  django-admin startproject ecomproject
+step-6 :-  cd ecomproject
+step-7 :-  python manage.py startapp ecomapp
+step-8 :-  python manage.py makemigrations
+step-9 :-  python manage.py migrate
+step-10 :- python manage.py createsuperuser
+step-11 :- python manage.py runserver
+step-12 :- pip install requests
